@@ -1,0 +1,6 @@
+This file provides a complete object-oriented Student Management System program written in C++ (CPP). It leverages structure mapping (struct), vectors (std::vector) for dynamic memory management, and input validation to keep the database bug-free.
+Program Core Mechanics
+• Data Fields Tracker: Manages vital student identifiers including Student ID, Full Name, Age, Course/Major, and Grade/GPA.
+• CRUD Features: Equipped with built-in functions to Add, View All, Search (by ID), and Delete student records.
+• Input Fail-Safes: Includes type-checking validation loops (e.g., using cin.clear()) to prevent infinite runtime crashes if a user inputs alphabetical text instead of numeric IDs/Grades.
+• Formatting Utilities: Utilizes <iomanip> features like setw and left alignment to output dynamic table grids cleanly in the command-line console interface.
